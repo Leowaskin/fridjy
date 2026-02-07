@@ -10,6 +10,8 @@ View your app in AI Studio: https://ai.studio/apps/drive/1pa6OFhYeVtNdqMX8Uoo8RD
 
 ## Run Locally
 
+#change trial
+
 **Prerequisites:**  Node.js
 
 
