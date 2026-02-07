@@ -1,8 +1,8 @@
 <div align="center">
-<img width="1200" height="395" alt="fridgy-logo" src="/fridgy-application/fridgy_logo.png" />
+<img width="1200" height="395" alt="fridjy-logo" src="/fridjy-application/fridjy_logo.png" />
 </div>
 
-## Fridgy
+## Fridjy
 
 An AI-powered refrigerator management app that helps you track your food inventory, discover recipes, and maintain your health goals—all with the power of Google's Gemini AI.
 
@@ -20,8 +20,8 @@ View our app in AI Studio: https://ai.studio/apps/drive/1pa6OFhYeVtNdqMX8Uoo8RDJ
 ## Project Structure
 
 ```
-fridgy/
-├── fridgy-application/
+fridjy/
+├── fridjy-application/
 │   ├── pages/
 │   │   ├── Home.tsx          # Main dashboard
 │   │   ├── Scan.tsx          # Camera interface for fridge scanning
@@ -46,10 +46,10 @@ fridgy/
 
 ### Data Storage (localStorage)
 
-Fridgy uses **browser localStorage** for data persistence:
-- **`fridgy_inventory`**: Food items with quantities and expiry dates
-- **`fridgy_health_profile`**: User's health metrics (weight, height, allergies)
-- **`fridgy_health_logs`**: Daily calorie and macro tracking
+Fridjy uses **browser localStorage** for data persistence:
+- **`fridjy_inventory`**: Food items with quantities and expiry dates
+- **`fridjy_health_profile`**: User's health metrics (weight, height, allergies)
+- **`fridjy_health_logs`**: Daily calorie and macro tracking
 
 **Advantages:**
 - ⚡ Fast and responsive
@@ -96,7 +96,7 @@ App.tsx (Router)
 
 ## AI Integration
 
-Fridgy leverages **Google's Gemini 3 Flash** model for:
+Fridjy leverages **Google's Gemini 3 Flash** model for:
 1. **Image Recognition**: Analyzing fridge photos to identify food items
 2. **Recipe Generation**: Creating personalized recipes from available ingredients
 3. **Health Analysis**: Providing nutrition insights and health recommendations
@@ -138,7 +138,7 @@ Dashboard showing:
 
 ## Contributing
 
-Feel free to fork, modify, and improve Fridgy! Some areas for enhancement:
+Feel free to fork, modify, and improve Fridjy! Some areas for enhancement:
 - Multiple user profiles
 - Cloud sync via Firebase/Supabase
 - Mobile app version

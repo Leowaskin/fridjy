@@ -9,12 +9,12 @@
 1. **Clone and install dependencies:**
    ```bash
    npm install
-   cd fridgy-application
+   cd fridjy-application
    npm install
    ```
 
 2. **Set up your API key:**
-   Create a `.env.local` file in the `fridgy-application` directory:
+   Create a `.env.local` file in the `fridjy-application` directory:
    ```
    VITE_GEMINI_API_KEY=your_gemini_api_key_here
    ```
@@ -49,7 +49,7 @@ The project uses:
 
 ## Environment Variables
 
-Create a `.env.local` file in `fridgy-application/`:
+Create a `.env.local` file in `fridjy-application/`:
 
 ```
 VITE_GEMINI_API_KEY=your_gemini_api_key_here

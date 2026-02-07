@@ -6,7 +6,7 @@ export const useInventory = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const saved = localStorage.getItem('fridgy_inventory');
+    const saved = localStorage.getItem('fridjy_inventory');
     if (saved) {
       try {
         setInventory(JSON.parse(saved));
@@ -19,7 +19,7 @@ export const useInventory = () => {
 
   const updateInventory = (newInventory: InventoryItem[]) => {
     setInventory(newInventory);
-    localStorage.setItem('fridgy_inventory', JSON.stringify(newInventory));
+    localStorage.setItem('fridjy_inventory', JSON.stringify(newInventory));
   };
 
   const addItem = (item: InventoryItem) => {

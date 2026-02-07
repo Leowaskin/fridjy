@@ -19,8 +19,8 @@ export const useHealth = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const savedProfile = localStorage.getItem('fridgy_health_profile');
-    const savedLogs = localStorage.getItem('fridgy_health_logs');
+    const savedProfile = localStorage.getItem('fridjy_health_profile');
+    const savedLogs = localStorage.getItem('fridjy_health_logs');
 
     if (savedProfile) {
       try {
@@ -38,7 +38,7 @@ export const useHealth = () => {
 
   const updateProfile = (newProfile: HealthProfile) => {
     setProfile(newProfile);
-    localStorage.setItem('fridgy_health_profile', JSON.stringify(newProfile));
+    localStorage.setItem('fridjy_health_profile', JSON.stringify(newProfile));
   };
 
   const addLog = (log: DailyLog) => {
@@ -62,7 +62,7 @@ export const useHealth = () => {
     newLogs.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
     
     setLogs(newLogs);
-    localStorage.setItem('fridgy_health_logs', JSON.stringify(newLogs));
+    localStorage.setItem('fridjy_health_logs', JSON.stringify(newLogs));
   };
 
   return { profile, logs, loading, updateProfile, addLog };
